@@ -3,7 +3,7 @@ const customExpress = require("./config/customExpress");
 // executo o arquivo de configuração dentro da constante app.
 const app = customExpress()
 //importar conexão com banco de dados.
-const conexao = require("./infraestrutura/conexao");
+const conexao = require("./infraestrutura/conexao").default;
 //importanto a class tabelas para criação da mesma.
 const tabelas = require("./infraestrutura/tabelas")
 // fazendo a conexão com o callback de resposta.
