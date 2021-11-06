@@ -12,10 +12,11 @@ conexao.connect((erro) => {
         console.log(erro)
     } else {
         console.log('conectado com sucesso')
+        const porta = process.env.PORT || 3000
         tabelas.init(conexao)
         // crio um evento de escuta para a porta onde irei levantar meu servidor e uma callback para as ações dessa escuta.
-        app.listen(3000, () => {
-            return console.log('servidor rodando na porta 3000');
+        app.listen(porta, () => {
+            return console.log(`servidor rodando na porta ${porta}`);
         })
     }
 })
