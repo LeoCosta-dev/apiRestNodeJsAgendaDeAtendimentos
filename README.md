@@ -32,6 +32,13 @@ Em outra parte do <a href = 'https://github.com/LeoCosta-dev/apiRestNodeJsAgenda
 ```
 npm install dotenv && npm install nodemon
 ```
+## Inicialização da aplicação via terminal:
+Para inicio da aplicação basta abrir o terminal na pasta do projeto ou executar o código abaixo  na sequencia dos códigos acima caso seja a primeira execução, esteja na sequencia dos comandos acima e com o seu banco de dados já conectado seja ele local ou em nuvem.
+
+```
+npm start
+```
+
 ## Observações importantes:
 
 A versão NodeJs utilizada para desenvolvimento é a 14.x LTS, logo é necessário intalação de versão igual ou superior para a perfeita execução da mesma.
