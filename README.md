@@ -43,7 +43,7 @@ npm start
 
 A versão NodeJs utilizada para desenvolvimento é a 14.x LTS, logo é necessário intalação de versão igual ou superior para a perfeita execução da mesma.
 
-## * Rotas da api:
+## Rotas da api:
 
 No presente momento temos apenas a rota <b>"/atendimentos"</b> onde podemos fazer alguns métodos interessantes.
 <br>
