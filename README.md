@@ -1,4 +1,4 @@
-# Desenvolvimento de uma api do tipo Rest em node js utilizando a framework express.
+# Desenvolvimento de uma api do tipo Rest em NodeJs utilizando a framework express.
 
 ## Descrição da aplicação:
 A aplicação é um ambiente back-end que gerencia e automatiza uma agenda de atendimentos, para qualquer tipo de serviço. Para isso foi utilizado o banco de dados relacional MySQL, onde o exemplo para as variaveis de ambiente que definem a conexão se encontra <a href = 'https://github.com/LeoCosta-dev/apiRestNodeJsAgendaDeAtendimentos/blob/master/.env.exemplo'>aqui</a>, foi utilizado o padrão do tipo REST e como organização conceitos de MVC.
