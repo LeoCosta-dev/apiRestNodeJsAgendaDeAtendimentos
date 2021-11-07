@@ -39,6 +39,42 @@ Para inicio da aplicação basta abrir o terminal na pasta do projeto ou executa
 npm start
 ```
 
-## Observações importantes:
+## Observação importante:
 
 A versão NodeJs utilizada para desenvolvimento é a 14.x LTS, logo é necessário intalação de versão igual ou superior para a perfeita execução da mesma.
+
+## * Rotas da api:
+
+No presente momento temos apenas a rota <b>"/atendimentos"</b> onde podemos fazer alguns métodos interessantes.
+<br>
+<br>
+
+### Ver todos os atendimentos:
+
+Utilizar o método HTTP Get no caminho <b>"url da api" + /atendimentos</b>
+<br>
+<br>
+
+### Buscar atendimento por id:
+
+Utilizar o método HTTP Get no caminho <b>"url da api" + /atendimentos/id</b>
+<br>
+<br>
+
+### Buscar atendimento por ciente:
+Utilizar o método HTTP Get no caminho <b>"url da api" + /atendimentos/cliente</b>
+<br>
+<br>
+
+### Adicionar atendimento:
+Utilizar o método HTTP Post no caminho <b>"url da api" + /atendimentos</b> com todos os dados necessários para o seu banco de dados. Nesta por exemplo que se trata de um petshop os campos são: <em>id, cliente, pet, servico, data, dataCriacao, status e observacoes.</em>
+<br>
+<br>
+
+### Modificar um atendimento já existente:
+Utilizar o método HTTP Patch no caminho <b>"url da api" + /atendimentos/:id</b> passando os valores que deseja alterar especificando seus devidos campos.
+<br>
+<br>
+
+### Deletar um atendimento:
+Utilizar o método HTTP Delete no caminho <b>"url da api" + /atendimentos/:id</b>.
