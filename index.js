@@ -7,12 +7,12 @@ const conexao = require("./infraestrutura/conexao");
 //importanto a class tabelas para criação da mesma.
 const tabelas = require("./infraestrutura/tabelas")
 // fazendo a conexão com o callback de resposta.
+const porta = process.env.PORT || 3000
 conexao.connect((erro) => {
     if (erro) {
         console.log(erro)
     } else {
         console.log('conectado com sucesso')
-        const porta = process.env.PORT || 3000
         tabelas.init(conexao)
         // crio um evento de escuta para a porta onde irei levantar meu servidor e uma callback para as ações dessa escuta.
         app.listen(porta, () => {
